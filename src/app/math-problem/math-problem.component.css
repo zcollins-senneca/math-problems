@@ -1,0 +1,42 @@
+.successful-answer {
+  color: green !important;
+  font-weight: bold;
+}
+.successful-answer mat-label {
+  color: green !important;
+  font-weight: bold;
+}
+.success-message {
+  color: green !important;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: red !important;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: red !important;
+  font-weight: bold;
+}
+.incorrect-answer mat-label {
+  color: red !important;
+  font-weight: bold;
+}
+.incorrect-answer {
+  color: red !important;
+  font-weight: bold;
+}
+
+.math-card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.math-card-incorrect {
+  background-color: rgb(255, 230, 230);
+}
+.math-card-correct {
+  background-color: rgb(194, 240, 194);
+}

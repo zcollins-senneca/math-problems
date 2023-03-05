@@ -1,0 +1,13 @@
+<mat-grid-list
+  [gridCols]="{ xs: 1, sm: 2, md: 3, lg: 4, xl: 7 }"
+  gutterSize="0"
+  *ngIf="this.numOfProblems > 0"
+>
+  <mat-grid-tile *ngFor="let problem of problems">
+    <app-math-problem
+      [numeratorLength]="problem.numeratorLength"
+      [denominatorLength]="problem.denominatorLength"
+      [problemType]="problem.problemType"
+    ></app-math-problem>
+  </mat-grid-tile>
+</mat-grid-list>
